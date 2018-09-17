@@ -22,20 +22,22 @@
   "scripts": {
     "start": "webpack --watch",
     "start:dev": "webpack-dev-server --mode=development",
-    "test": "babel-node test/index.js"
+    "test": "jest --watch"
   },
   "devDependencies": {
     "@babel/core": "7.0.1",
     "@babel/preset-env": "7.0.0",
+    "babel-core": "7.0.0-bridge.0",
     "babel-loader": "8.0.2",
-    "blue-tape": "1.0.0",
     "clean-webpack-plugin": "0.1.19",
     "css-loader": "1.0.0",
-    "faucet": "0.0.1",
+    "eslint": "5.6.0",
+    "eslint-plugin-jest": "21.22.0",
     "file-loader": "2.0.0",
     "gh-pages": "2.0.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
+    "jest": "23.6.0",
     "mini-css-extract-plugin": "0.4.2",
     "node-sass": "4.9.3",
     "optimize-css-assets-webpack-plugin": "5.0.0",
